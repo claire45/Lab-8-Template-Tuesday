@@ -74,6 +74,7 @@ licenses:
 
 before_install:
   # Accept sdk licenses
+  # 
   - yes | sdkmanager "platforms;android-29"
 
   # Get gradle
